@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format('woff2');
+}
+
+body {
+    margin: 0px;
+    min-height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.page_header {
+    background-color: #007765;
+    color: white;
+    margin-bottom: 0;
+    position:fixed;
+    width: 100%;
+   
+}
+
+.navigation {
+    width: 1219px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+
+.navigation-list li + li:before{
+    content: " | ";
+    padding: 0 10px;
+}
+
+.navigation-list li {
+    display: inline;
+}
+
+.logo_header {
+    width: 184px;
+    height: 45px;
+    align-self: center;
+}
+
+
+.page_header a {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+
+.main-container {
+    flex-grow: 1;
+
+
+}
+
+.heading {
+
+    background-image: url(images/back_footer.png);
+    background-size: 100%;
+    
+    background-color: #007765;
+    color: white;
+    font-size: 72px;
+    text-align: center;
+    padding: 160px 396px;
+    margin: 60px 0px;
+}
+
+
+.problem {
+    background-color: #eee;
+    margin: 0px;
+}
+
+h2 {
+    color: #007765;
+    font-size: 64px;
+    text-align: center;
+
+    margin: 0px;
+    padding-top: 48px;
+    padding-bottom: 16px;
+
+}
+
+.problem_solving {
+    background-image: url(images/back_problem.png);
+    background-color: #007765;
+    color: white;
+    font-size: 48px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+
+
+.problem_discription {
+    width: 1219px;
+    margin: 0 auto;
+}
+
+.pied_piper_coin,
+.team {
+    width: 1219px;
+    margin: 0 auto;
+
+}
+
+.introducing {
+    display: flex;
+}
+
+.logo_main {
+    width: 115px;
+    height: 115px;
+    margin-right: 48px;
+}
+
+.text_right_logo {
+    margin: 0px;
+}
+
+.list_team {
+    background-color: #eee;
+}
+
+.team_member_foto {
+    width: 168px;
+    padding: 10px 90px;
+}
+
+.team_member_name {
+    color: #007765;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    text-align: center;;
+}
+
+.team_member_post {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.team {
+    
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 80px;
+    
+}
+.footer_page{
+    margin-top: 0;
+    font-size: 18px;
+    background: #333333;
+    color:white
+}
+
+
+.copyright_block{
+    width: 44%;
+    text-align: center;
+    margin:0 auto;
+    padding: 60px ;
+}
